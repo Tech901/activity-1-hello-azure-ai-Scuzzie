@@ -4,12 +4,12 @@ Answer these questions after completing the activity (2-3 sentences each). Conne
 
 ## 1. Service Surprises
 
-Which of the three Azure AI services (OpenAI, Content Safety, Language) surprised you the most? Connect this to something specific you observed during your experiments -- a response you didn't expect, a behavior that seemed too easy or too hard, or a result that made you rethink how the service works.
+This all seemed very much easier than expected. I expected to struggle a lot more, as I lost most of my coding habits over the past couple years of not coding. However, in the words of Todd Howard, "It Just works". 
 
 ## 2. Lazy Initialization
 
-How would you explain the lazy initialization pattern to a colleague? Why is it used instead of creating clients at the top of the file?
+You pretty much don't create a client until it's actually needed. Wrapping it all in a function that runs the code on the first call, reducing redundancy.
 
 ## 3. Content Safety in the Real World
 
-A resident files this complaint: *"A man was assaulted at this intersection because the street light has been out for months."* This text describes real violence but is a legitimate safety concern. Should the system block it, flag it for human review, or pass it through? What factors would you weigh in making that decision?
+I'd say safety is the most important of all of them. Someone can do all 3 for sure, but if AI had to do one of them and someone had to do the other three, I'd say that human eyes should always prioritize safety first and foremost.
